@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Tajawal:300,400");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.screen {
+  height: 100vh;
+  background: linear-gradient(50deg, #ffff80, #1103b6);
+  transition: all 1s; }
+
+.controls {
+  border: 2px solid white;
+  border-radius: 20px;
+  color: white;
+  padding: 20px;
+  width: 450px;
+  margin: auto;
+  font-family: Tajawal;
+  font-weight: 300; }
+
+input,
+textarea,
+button {
+  outline: none;
+  margin: 8px 0;
+  font-family: Tajawal; }
+
+input[type='color'] {
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  height: 35px; }
+
+input[type='number'],
+button {
+  padding: 10px 15px;
+  display: block; }
+
+textarea {
+  resize: none;
+  height: 80px;
+  padding: 15px;
+  width: 100%; }
+
+p {
+  font-size: 2em; }
+
+button {
+  cursor: pointer; }
+
+input[type='number'],
+textarea {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  transition: border 0.3s; }
+  input[type='number']:focus,
+  textarea:focus {
+    border: 2px solid white; }
+
+::-webkit-input-placeholder {
+  color: white;
+  opacity: 1; }
+
+.controls-flex {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center; }
+
+/*# sourceMappingURL=styles.css.map */
